@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .box {
+        background: yellow;
+        padding: 11px;
+
+        
+    }
+    .name { box-shadow: 4px 4px 5px gray; } /* CSS3 property */
+    .rule { animation: spin 10s infinite; } /* CSS3 animation */ 
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(250deg); } } 
+.hi  { color: hsl(120, 66%, 34%); } /* Semi-transparent red */
+.dives { margin: 40px 100px 120px 80px; background: lightblue; }
+.dc {
+        border: 2px solid black;
+        outline: 1px solid red;
+    }
+</style>
+<body>
+    <p class="dc">Border vs Outline</p>
+    <p>
+        An image as a link: <a href="https://www.w3schools.com">
+            <img alt="W3Schools" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Superman_shield.svg/1024px-Superman_shield.svg.png" width="300" height="200">
+        </a>    </p>
+    <div class="dives">ransparent background 22</div>
+    <div class="hi">Transparent background</div>
+    <div class="rule">Spinning div</div>
+    <div class="name">Shadow effect</div>
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div>
+        <h4>new paragraph</h4>
+        <p>
+        hello today we gona see how to make <b>display</b> the in the <i>paragraph</i> in the <strong>webpage</strong> using <del>tag</del> in the page
+        <br>
+        this <em>break</em> tage using <ins>splite</ins> the <mark>sentence</mark>
+        <br>
+        <br>
+        H<sub>2</sub>o Co<sub>2</sub>
+    </p>
+    </div>
+    <h1>hello</h1>
+    <div>
+        <ul>
+            <li>apple </li>
+            <li>orange </li>
+            <li>banana </li>
+        </ul>
+    <ol>
+        <li>Iphone </li>
+        <li>oppo </li>
+        <li>realme </li>
+    </ol>
+    </div>
+    <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th></th>
+                <th>
+                    item 
+                </th>
+                <th>
+                    prize
+                </th>
+            </tr>
+            </thead>
+<tbody>
+    <tr>
+        <td rowspan="2">S.No</td>
+        <td>
+            apple 
+        </td>
+        <td>
+            25.78
+        </td>
+    </tr>
+    <tr>
+        <td>
+            orage
+        </td>
+        <td>
+            50
+        </td>
+    </tr>
+</tbody>
+        </table>
+    </div>
+    <marquee >Scrolling Text</marquee>
+    <marquee direction="right" scrollamount="10">Fast Moving Text</marquee>
+    <marquee behavior="alternate" bgcolor="lightblue" width="300">Bouncing Text</marquee>
+    <marquee direction="up" height="100" scrollamount="2">Scrolling Up Text</marquee>
+    <div class="marquee">This is scrolling text using CSS!</div>
+    
+    <style>
+        .marquee {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            animation: marquee 50s linear infinite;
+        }
+    
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+    
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+    
+    <dl>
+        <dt>HTML</dt>
+        <dd>HTML stands for HyperText Markup Language. It is used to create web pages.</dd>
+    
+        <dt>CSS</dt>
+        <dd>CSS stands for Cascading Style Sheets. It is used to style HTML elements.</dd>
+    
+        <dt>JavaScript</dt>
+        <dd>JavaScript is a scripting language used to create dynamic content on web pages.</dd>
+    </dl>
+    <h3>Left Aligned List</h3>
+    <ul style="text-align: left;">
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+    </ul>
+    
+    <h3>Center Aligned List</h3>
+    <ul style="text-align: center; list-style-position: inside;">
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+    </ul>
+    
+    <h3>Right Aligned List</h3>
+    <ul style="text-align: right; list-style-position: inside;">
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+    </ul>
+    
+<br>
+<br>
+<table border="1">
+    <tr>
+
+            <td>
+                5 Pcs
+            </td>
+            <td>
+               10
+            </td>
+            <td>
+               5
+            </td>
+
+    </tr>
+</table>
+
+<p> 2025 My Company.&copy; &#169; All rights reserved.</p>
+
+<br>
+<!-- Navigation Links -->
+<a href="#section1">Go to Section 1</a> |
+<a href="#section2">Go to Section 2</a> |
+<a href="#section3">Go to Section 3</a>
+
+<hr>
+
+<!-- Section 1 -->
+<h2 id="section1">Section 1</h2>
+<p>This is the content of Section 1.</p>
+<br>
+<!-- Section 2 -->
+<h2 id="section2">Section 2</h2>
+<p>This is the content of Section 2.</p>
+<br>
+<!-- Section 3 -->
+<h2 id="section3">Section 3</h2>
+<p>This is the content of Section 3.</p>
+<a href ="https://www.facebook.com/" target="new">facebook 1</a>
+
+<img src="world-map.jpg" alt="World Map" usemap="#worldmap">
+
+<map name="worldmap">
+    <area shape="rect" coords="34,44,270,350" href="https://example.com/usa" alt="USA">
+    <area shape="circle" coords="500,150,50" href="https://example.com/india" alt="India">
+    <area shape="poly" coords="200,200,220,250,180,250" href="https://example.com/africa" alt="Africa">
+</map>
+
+
+<br>
+<time datetime="2025-06-17">Today</time>
+<progress value="50" max="100"></progress>
+
+<meter value="0.6">60%</meter>
+<nav><a href="#home">Home</a></nav>
+</body>
+</html>
